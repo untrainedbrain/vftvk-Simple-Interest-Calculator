@@ -30,5 +30,5 @@ function read_slider() {
     // read the value of the rate slider and put that value, the Rate
     // into the interest element
     var rate = document.getElementById("rate").value;
-    document.getElementById("interest").textContent = rate;
+    document.getElementById("interest").textContent = rate +"%";
 }
